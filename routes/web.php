@@ -13,6 +13,6 @@ Route::get('/salvar-remedio',[RemediobrasilController::class,'ShowFormulario'])-
 
 Route::post('/salvar-remedio',[RemediobrasilController::class,'SalvarRemedio'])->name('cadastrar-formulario');
 
-Route::delete('apagar-remedio/{id}', [RemediobrasilController::class,'destroy'])->name('apagar-remedio');
+Route::delete('apaga-remedio/{id}', [RemediobrasilController::class,'destroy'])->name('apagar-remedio');
 
-Route::put('alterar-remedio/{id}',[RemediobrasilController::class,'update'])->name('alterar-remedio');
+Route::put('altera-remedio/{id}',[RemediobrasilController::class,'update'])->name('alterar-remedio');

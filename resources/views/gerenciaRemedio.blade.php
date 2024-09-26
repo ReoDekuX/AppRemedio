@@ -34,11 +34,11 @@
     @foreach($registrosRemedio as $registrosRemedio)
     <tr>
       <th scope="row">{{$registrosRemedio->id}}</th>
-      <td>{{$registrosRemedio->nome}}</td>
-      <td>{{$registrosRemedio->convenio}}</td>
-      <td>{{$registrosRemedio->medicamento}}</td>
-      <td>{{$registrosRemedio->dosagem}}</td>
-      <td>{{$registrosRemedio->preco}}</td>
+      <td>{{$registrosRemedio ->nome}}</td>
+      <td>{{$registrosRemedio ->convenio}}</td>
+      <td>{{$registrosRemedio ->medicamento}}</td>
+      <td>{{$registrosRemedio ->dosagem}}</td>
+      <td>{{$registrosRemedio ->preco}}</td>
 
       <td> 
         <a href ="{{route('mostrar-remedio-id',$registrosRemedio->id)}}">

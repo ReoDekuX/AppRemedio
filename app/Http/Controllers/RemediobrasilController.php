@@ -24,7 +24,7 @@ class RemediobrasilController extends Controller
      //CRUD
     //R- read mostrar os registros da tabela
     public function ShowFormulario(){
-        return view('cadastroremedio');
+        return view('cadastroRemedio');
     }
      //CRUD
     //D - Delete Apagar um registro na tabela
